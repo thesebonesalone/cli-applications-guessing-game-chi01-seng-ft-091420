@@ -12,6 +12,7 @@ def run_guessing_game
   if input == number
     puts "You guess the correct number!"
   else
+    puts "Sorry, the computer guessed #{number}."
     puts "Guess again!"
   end
 end
