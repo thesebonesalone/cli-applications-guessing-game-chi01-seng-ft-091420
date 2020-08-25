@@ -9,7 +9,7 @@ def run_guessing_game
     return nil
   end
   
-  if input == number
+  if input.to_i == number
     puts "You guess the correct number!"
   else
     puts "Sorry, the computer guessed #{number}."
